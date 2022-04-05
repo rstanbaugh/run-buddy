@@ -203,15 +203,25 @@ section {
   align-items: center;
 }
 
-.step-txt p {
+.step-text {
+  flex: 12;
+}
+
+.step-text p {
   color: #39a6b2;
   font-size: 18px;
 }
 
-.step-txt h4 {
+.step-text h4 {
   font-size: 26px;
   line-height: 1.5;
   color: #024e76;
+}
+
+.step-img {
+  flex: 1 12%;
+  margin-right: 20px;
+  max-width: 100%;
 }
 
 /* end what you do section */
